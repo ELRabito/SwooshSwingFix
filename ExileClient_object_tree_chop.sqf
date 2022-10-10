@@ -12,7 +12,7 @@
 private["_treeModelNames", "_tree"];
 _treeModelNames = getArray(missionConfigFile >> "CfgInteractionModels" >> "WoodSource" >> "models");
 _tree = _treeModelNames call ExileClient_util_model_getLookAt;
-if("Exile_Magazine_Swoosh" in (magazines player)) then {player removeMagazines "Exile_Magazine_Swing"};
+if("Exile_Magazine_Swing" in (magazines player)) then {player removeMagazines "Exile_Magazine_Swing"};
 if (!isNull _tree) then
 {
 	if (alive _tree) then 
