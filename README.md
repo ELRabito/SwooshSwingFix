@@ -1,4 +1,4 @@
-# SwooshSwingFix
+# Swoosh & Swing Fix
 Fixes a exploit with the axe and sledgehammer. 
 
 # Installation
